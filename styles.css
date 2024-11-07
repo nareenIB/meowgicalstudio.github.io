@@ -1,0 +1,148 @@
+/* Basic Styling */
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    background-color: #FECF65; 
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #3e72c5; 
+}
+h2{
+    color: #3e72c5; 
+}
+h3{
+    color: #3e72c5; 
+}
+p {
+    color: #2964c3;
+}
+
+header, footer {
+    background-color: #ffffc0; 
+    color: #333;
+}
+
+.header-title {
+    font-size: 2em;
+    color: #9597cb; 
+}
+
+/* Navigation Links */
+nav a {
+    color: #5a9ac7; 
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #5a9ac7;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 20px;
+}
+
+#home {
+    background-color: #d9e3f1; 
+    color: #5c5c5c;
+}
+
+#about, #resume {
+    background-color: #d1d1d8; 
+    color: #333;
+}
+
+#projects {
+    background-color: #ffffc0; 
+    color: #333;
+}
+
+#contact {
+    background-color: #d9e3f1; 
+    color: #333;
+}
+
+/* Project Images */
+.project img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.project img:hover {
+    transform: scale(1.05); 
+}
+
+/* Buttons */
+.btn-download, .w3-button {
+    background-color: #FECF65; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-download:hover, .w3-button:hover {
+    background-color: #B6B7D3; 
+}
+
+/* Form Styling */
+.contact-form label {
+    font-weight: bold;
+    color: #B6B7D3; 
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #3e72c5;
+    border-radius: 5px;
+    background-color: #ffffc0; 
+}
+
+.contact-form button {
+    background-color: #7f82bf;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #a1a3ce;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+footer a {
+    color: #5a9ac7;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #487e9e;
+}
+
+
+/* #CADDFB blue
+#FECF65 yellow
+#B6B7D3 purple */
